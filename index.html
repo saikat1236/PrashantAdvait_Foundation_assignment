@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html id="app_html" translate="no">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="styles/fonts.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>संतवाणी श्रृंखला | आचार्य प्रशांत</title>
+	<meta property="og:image"
+		content="https://cimg.acharyaprashant.org/images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3/20/image.jpg"
+		data-svelte="svelte-g505v3">
+	<script data-svelte="svelte-18y67ep">
+	</script>
+	<link href="assets/__layout-02bd25ac.css" rel="stylesheet">
+	<link href="assets/Spinner-8227be03.css" rel="stylesheet">
+	<link href="assets/Button-6e23827b.css" rel="stylesheet">
+	<link href="assets/Cart-eae17833.css" rel="stylesheet">
+	<link href="assets/DownloadAppBar-f119daa8.css" rel="stylesheet">
+	<link href="assets/RoundedButton-42bc83b2.css" rel="stylesheet">
+	<link href="assets/TextWithReadMore-c97dfca0.css" rel="stylesheet">
+	<link href="assets/SocialMediaShare-fd7d67c7.css" rel="stylesheet">
+	<link href="assets/StackedImage-ef629447.css" rel="stylesheet">
+	<link href="assets/OverlayImage-0851d799.css" rel="stylesheet">
+	<link href="assets/HorizontalSpinner-378c3072.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="svelte">
+		<div class="flex min-h-screen w-full flex-col justify-between">
+			<div class="top-0 z-navbar" style="position: relative">
+				<div id="main-nav-bar" class="h-11 bg-brand-700">
+					<div class="mx-auto h-full max-w-screen-2xl select-none text-white">
+						<div class="flex h-full justify-between text-xs">
+							<div class="flex items-stretch pl-4 text-sm laptop:pl-8">
+								<div class="shrink-0 self-center"><img class="mr-2 h-8 w-8 rounded-full"
+										src="images/ic_aplogo.png" alt="Acharya Prashant"></div>
+
+								<div class="hidden h-full flex-row items-stretch justify-center font-medium tab:flex">
+									<div
+										class="flex cursor-pointer items-center px-4 opacity-90 transition-opacity duration-300 ease-in-out hover:opacity-100">
+
+										<span class="font-en">Home</span>
+									</div>
+									<div
+										class="flex cursor-pointer items-center px-4 opacity-90 transition-opacity duration-300 ease-in-out hover:opacity-100 bg-brand-600">
+
+										<span class="font-en">Video Courses</span>
+									</div>
+									<div
+										class="flex cursor-pointer items-center px-4 opacity-90 transition-opacity duration-300 ease-in-out hover:opacity-100">
+
+										<span class="font-en">His Books</span>
+									</div>
+									<div
+										class="flex cursor-pointer items-center px-4 opacity-90 transition-opacity duration-300 ease-in-out hover:opacity-100">
+
+										<span class="font-en">Donate</span>
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="flex h-full content-center items-center justify-center tab:space-x-3 laptop:space-x-4 laptop:pr-8">
+
+
+
+								<div class="inline-flex cursor-pointer items-center py-4 px-6 tab:px-0">
+									<div class="relative">
+										<div
+											class="flex inline-flex items-center space-x-1 font-medium opacity-90 transition-opacity duration-300 ease-in-out hover:opacity-100">
+											<svg xmlns="http://www.w3.org/2000/svg" width="22" height="17"
+												viewBox="0 0 22 17" class="fill-current">
+												<path
+													d="M9.7 4.5v1.295H6.12v2.05h3.364V9.06H6.12v2.144H9.7v1.295H4.55V4.5H9.7Zm2.637 0 3.545 5.32h.053V4.5h1.476v7.998H16.1l-3.557-5.35h-.047v5.35H11.02V4.5h1.318ZM2.99 17h16.02c.997 0 1.745-.244 2.243-.732.499-.488.748-1.213.748-2.176V2.908c0-.963-.25-1.688-.748-2.176C20.754.244 20.006 0 19.01 0H2.99C2.007 0 1.263.244.758.732.253 1.22 0 1.945 0 2.908v11.184c0 .963.253 1.688.758 2.176.505.488 1.25.732 2.233.732Zm.069-1.648c-.446 0-.787-.116-1.023-.349-.236-.232-.355-.575-.355-1.027V3.024c0-.459.119-.805.355-1.037.236-.233.577-.349 1.023-.349h15.88c.446 0 .79.116 1.033.349.243.232.364.578.364 1.037v10.952c0 .452-.121.795-.364 1.027-.243.233-.587.35-1.033.35H3.06Z">
+												</path>
+											</svg>
+											<div class="pt-0.5"><svg xmlns="http://www.w3.org/2000/svg" width="9"
+													height="6" viewBox="0 0 9 6" class="fill-current">
+													<path
+														d="m.354 1.354 3.792 3.792a.5.5 0 0 0 .708 0l3.792-3.792A.5.5 0 0 0 8.293.5H.707a.5.5 0 0 0-.353.854Z">
+													</path>
+												</svg></div>
+										</div>
+										<div></div>
+									</div>
+								</div>
+
+								<div class="text-white hover:cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
+										width="16" height="16" viewBox="0 0 16 16" class="fill-current">
+										<path
+											d="M11.895 16c.708 0 1.314-.104 1.817-.313.503-.209.965-.548 1.388-1.017a1.27 1.27 0 0 0 .094-.103l.086-.103a2.93 2.93 0 0 0 .544-.81 1.98 1.98 0 0 0 .176-.785c0-.298-.086-.585-.257-.862-.171-.278-.44-.54-.806-.785l-2.382-1.665a2.048 2.048 0 0 0-1.17-.39c-.408-.003-.781.164-1.118.502l-.617.609c-.097.103-.193.159-.287.167a.49.49 0 0 1-.305-.09 8.1 8.1 0 0 1-.544-.416 18.5 18.5 0 0 1-1.332-1.205c-.206-.2-.405-.405-.596-.614a11.947 11.947 0 0 1-.527-.613 5.1 5.1 0 0 1-.394-.558.42.42 0 0 1-.095-.296.506.506 0 0 1 .163-.287l.609-.618c.343-.343.512-.719.51-1.128a1.985 1.985 0 0 0-.399-1.162L4.782 1.047C4.536.692 4.275.431 3.998.262A1.699 1.699 0 0 0 3.137 0C2.61-.01 2.08.223 1.543.704a.848.848 0 0 0-.108.09.648.648 0 0 1-.098.081c-.469.43-.809.897-1.02 1.403C.106 2.784 0 3.398 0 4.118c0 .784.153 1.612.458 2.484.306.872.762 1.76 1.367 2.664a18.027 18.027 0 0 0 2.237 2.685 18.605 18.605 0 0 0 2.674 2.217c.897.604 1.782 1.06 2.657 1.369.874.309 1.708.463 2.502.463Zm0-1.295c-.691.005-1.428-.146-2.211-.455a11.557 11.557 0 0 1-2.365-1.296 16.925 16.925 0 0 1-2.28-1.921 16.885 16.885 0 0 1-1.941-2.3A12.06 12.06 0 0 1 1.765 6.32c-.32-.798-.474-1.543-.462-2.235.005-.44.087-.847.244-1.218a2.64 2.64 0 0 1 .788-1.038c.026-.023.053-.046.082-.069.114-.097.233-.173.355-.227a.895.895 0 0 1 .365-.082c.251 0 .45.115.6.343l1.55 2.317a.663.663 0 0 1 .13.411c-.007.143-.075.28-.207.412l-.685.678c-.291.292-.437.6-.437.922 0 .323.1.625.3.905.223.31.515.67.878 1.081.363.412.707.78 1.033 1.107.228.223.48.462.754.716.274.255.546.496.814.725.269.229.503.418.703.566.28.2.581.3.904.3.323 0 .63-.148.921-.445l.677-.678c.132-.137.27-.208.416-.21a.69.69 0 0 1 .416.133L14.2 12.26c.12.08.206.171.257.274a.738.738 0 0 1 .078.335c0 .234-.103.474-.309.72a2.054 2.054 0 0 1-.137.155c-.269.314-.591.55-.968.708a3.384 3.384 0 0 1-1.226.253Z">
+										</path>
+									</svg></div>
+
+								<div class="cursor-pointer pl-6 text-white tab:hidden">
+									<div
+										class="cursor-pointer rounded-md text-center transition-colors transition duration-150 btn-outline-white btn-sm svelte-5g42hi">
+
+										<span class="font-en">Donate</span>
+									</div>
+								</div>
+
+								<div class="inline-flex cursor-pointer items-center py-4 pl-6 pr-4 tab:pl-0"><svg
+										xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 14 12"
+										class="fill-current">
+										<path fill-rule="evenodd"
+											d="M13 10a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2h12Zm0-5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2h12Zm0-5a1 1 0 1 1 0 2H1a1 1 0 0 1 0-2h12Z">
+										</path>
+									</svg>
+
+									<div class="hidden pl-2 laptop:block">
+
+										<span class="font-en">Menu</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="min-h-full w-full flex-grow">
+				<div id="inner-nav-bar" class="sticky top-0 z-secondary-navbar bg-white shadow">
+
+					<div id="inner-nav-bar" class="mx-auto max-w-screen-2xl select-none">
+						<div class="h-12">
+							<div class="flex h-full items-center justify-between">
+								<div class="flex cursor-pointer items-center pl-4 laptop:pl-8">
+									<div><img class="h-6 object-contain" src="images/ic_courses.png" alt="content home">
+									</div>
+									<div class="ml-6 hidden w-[36rem] flex-grow tab:block">
+										<div class="items-center rounded border border-gray-disabled shadow-sm">
+											<div class="relative">
+												<div class="relative flex w-full flex-row"><button
+														class="flex flex-row items-center whitespace-nowrap rounded-l border-r pl-2 text-xs font-normal">
+														<div class="text-xs font-medium text-gray-subtitle">
+
+															<span class="font-en">All</span>
+														</div>
+														<div class="px-3 text-slate-500"><svg
+																xmlns="http://www.w3.org/2000/svg" width="9" height="6"
+																viewBox="0 0 9 6" class="fill-current">
+																<path
+																	d="m.354 1.354 3.792 3.792a.5.5 0 0 0 .708 0l3.792-3.792A.5.5 0 0 0 8.293.5H.707a.5.5 0 0 0-.353.854Z">
+																</path>
+															</svg></div>
+													</button>
+
+													<input type="search"
+														class="h-9 w-full border-0 text-gray-title caret-brand-600 focus:ring-0"
+														placeholder=" Search for courses" value="">
+
+													<button
+														class="items-end rounded-r bg-brand-200 fill-current py-1 px-2 text-slate-700"><svg
+															xmlns="http://www.w3.org/2000/svg" width="17" height="16"
+															viewBox="0 0 17 16">
+															<path fill-rule="evenodd"
+																d="M6.5 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-6 4a6 6 0 1 1 10.89 3.476l4.817 4.817a1 1 0 0 1-1.414 1.414l-4.816-4.816A6 6 0 0 1 .5 6Z">
+															</path>
+														</svg></button>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div
+									class="flex h-10 content-center items-center justify-center space-x-4 pr-4 laptop:pr-8">
+									<div class="cursor-pointer tab:hidden"><svg xmlns="http://www.w3.org/2000/svg"
+											width="17" height="16" viewBox="0 0 17 16" class="fill-current">
+											<path fill-rule="evenodd"
+												d="M6.5 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-6 4a6 6 0 1 1 10.89 3.476l4.817 4.817a1 1 0 0 1-1.414 1.414l-4.816-4.816A6 6 0 0 1 .5 6Z">
+											</path>
+										</svg></div>
+									<div class="whitespace-nowrap py-4 text-sm">
+										<div
+											class="cursor-pointer rounded-md text-center transition-colors transition duration-150 btn-solid btn-sm svelte-5g42hi">
+
+											<span class="font-en">Login</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="relative mx-auto max-w-screen-2xl">
+
+					<div>
+						<div class="hidden px-4 pt-4 tab:block laptop:px-8">
+							<div class="flex w-full flex-wrap items-baseline justify-start text-gray-subtitle">
+								<div class="mr-1 text-sm cursor-pointer hover:text-brand-600">
+
+									<span class="font-en">Home</span>
+								</div>
+
+								<div class="mr-1 px-1 text-gray-subtitle"><svg xmlns="http://www.w3.org/2000/svg"
+										width="7" height="11" viewBox="0 0 7 11" class="fill-current">
+										<path fill-rule="evenodd"
+											d="M.793 10.207a1 1 0 0 1 0-1.414L4.086 5.5.793 2.207A1 1 0 0 1 2.207.793l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414 0Z">
+										</path>
+									</svg>
+								</div>
+								<div class="mr-1 text-sm   font-medium">
+
+									<span class="font-hi">संतवाणी</span>
+								</div>
+
+								<div class="mr-1 px-1 text-gray-subtitle hidden"><svg xmlns="http://www.w3.org/2000/svg"
+										width="7" height="11" viewBox="0 0 7 11" class="fill-current">
+										<path fill-rule="evenodd"
+											d="M.793 10.207a1 1 0 0 1 0-1.414L4.086 5.5.793 2.207A1 1 0 0 1 2.207.793l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414 0Z">
+										</path>
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="flex items-center px-4 py-2 tab:py-4 tab:pt-4 laptop:px-8">
+							<div
+								class="-ml-4 cursor-pointer rounded fill-current p-4 text-brand-600 hover:text-brand-400 tab:hidden">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13">
+									<path fill-rule="evenodd"
+										d="M7.244 12.249a.888.888 0 0 1-1.238 0L.756 7.106a.845.845 0 0 1 0-1.212L6.006.75a.888.888 0 0 1 1.238 0 .845.845 0 0 1 0 1.212l-3.757 3.68h10.138c.483 0 .875.384.875.857a.866.866 0 0 1-.875.857H3.487l3.757 3.68a.845.845 0 0 1 0 1.212Z">
+									</path>
+								</svg></div>
+
+							<div class="text-lg font-semibold text-gray-title tab:text-xl laptop:text-2xl">
+
+								<span class="font-hi">संतवाणी</span>
+							</div>
+						</div>
+
+						<div id="info2"  class="px-4 laptop:px-8">
+							
+						</div>
+
+						<div class="px-4 laptop:px-8">
+							<div>
+								<div class="mt-8 text-lg font-medium tab:mt-12 tab:text-xl laptop:mt-16">
+
+									<span class="font-en">Courses (8)</span>
+								</div>
+
+								<div class="mt-1 h-[0.5px] w-full bg-gray-separator tab:mt-2"></div>
+							</div>
+						</div>
+
+						 <div  id="info1" class="grid grid-cols-1 gap-x-4 tab:grid-cols-2 tab:gap-y-4 laptop:grid-cols-3 laptop:gap-x-8 laptop:px-4 desk:grid-cols-4">
+						<!-- garbage code no: 1 in garbage.txt -->
+						</div> 
+
+						<div class="px-4 laptop:px-8">
+							<div>
+								<div class="mt-8 text-lg font-medium tab:mt-12 tab:text-xl laptop:mt-16">
+
+									<span class="font-en">Other Helpful Courses</span>
+								</div>
+
+								<div class="mt-1 h-[0.5px] w-full bg-gray-separator tab:mt-2"></div>
+							</div>
+						</div>
+
+						<div id="series" class="grid grid-cols-1 tab:grid-cols-2 tab:gap-y-4 laptop:gap-x-8 laptop:px-4 desk:grid-cols-3">
+						 	
+						</div>
+						<div id="series2" class="grid grid-cols-1 tab:grid-cols-2 tab:gap-y-4 laptop:gap-x-8 laptop:px-4 desk:grid-cols-3">
+						 	
+						</div>
+
+						<div class="bg-gradient-to-b from-slate-50 px-4 py-16 tab:px-4 laptop:px-20">
+							<div class="tab:flex">
+								<div class="pb-10 tab:w-1/3 tab:pb-0">
+									<div class="text-lg font-semibold text-gray-title">
+
+										<span class="font-en">FAQs</span>
+									</div>
+									<div class="pt-1">
+
+										<span class="font-en dynamicHTMLContainer">
+											<!-- HTML_TAG_START -->
+											<p>Can’t find the answer you’re looking for? Reach out to our <a
+													target="_blank"
+													href="https://acharyaprashant.org/technical-support"><span
+														style="color:#DD6B20">support</span></a> team</p>
+											<!-- HTML_TAG_END -->
+										</span>
+									</div>
+								</div>
+
+								<div id="faq" class="w-full tab:pl-24">
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="fixed bottom-0 left-0 right-0 z-50 w-full bg-brand-100 px-4 py-[10px] laptop:hidden">
+						<div class="flex items-center justify-between">
+							<div class="font-medium text-slate-700">
+
+								<span class="font-en">Open in App</span>
+							</div>
+							<div class="text-xs font-medium tab:text-sm"><button
+									class="flex items-center rounded-3xl bg-brand-600 text-slate-100 hover:bg-brand-700 hover:text-white btn-lg h-full text-white svelte-lb7hu2">
+									<div class="flex items-center justify-center whitespace-nowrap">
+										<div class="mr-1.5 h-[14px] w-[14px] text-white tab:h-4 tab:w-4"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+												class="fill-current">
+												<path fill="none" stroke="#FFF" stroke-linecap="round"
+													stroke-linejoin="round" stroke-width="1.2"
+													d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm-2.5-3.258h5M10 8.129l-2 2.065m0 0L6 8.129m2 2.065V4">
+												</path>
+											</svg></div>
+
+
+										<span class="font-en">Download App</span>
+									</div>
+								</button></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bg-slate-900 px-4 pb-7 tab:px-0 tab:pt-10">
+				<div
+					class="text-md flex w-full flex-col space-y-5 px-4 pt-8 tab:flex-row tab:justify-center tab:space-x-4 tab:space-y-0 tab:pt-0 laptop:space-x-16">
+					<div>
+						<div class="mb-[13px] font-semibold text-slate-100">
+
+							<span class="font-en">LIVE EVENTS</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Vedant Mahotsav</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Gita Course</span>
+						</div>
+						<div class="text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Institutional Sessions</span>
+						</div>
+					</div>
+
+					<div>
+						<div class="mb-[13px] font-semibold text-slate-100">
+
+							<span class="font-en">WISDOM CONTENT</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Wisdom Courses</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">His Books</span>
+						</div>
+						<div class="text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">AP Circle</span>
+						</div>
+					</div>
+
+					<div>
+						<div class="mb-[13px] font-semibold text-slate-100">
+
+							<span class="font-en">MORE</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">About Acharya Prashant</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Ghar Ghar Upanishad</span>
+						</div>
+						<div class="mb-[10px] text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Media and Public Interaction</span>
+						</div>
+						<div class="text-slate-300 hover:cursor-pointer hover:text-brand-700">
+
+							<span class="font-en">Talks with Acharya Prashant</span>
+						</div>
+					</div>
+
+					<div>
+						<div class="mb-[13px] font-semibold text-slate-100">
+
+							<span class="font-en">SOCIAL MEDIA</span>
+						</div>
+						<div class="mb-6 flex flex-col ">
+							<div class="mb-[10px] text-slate-300">
+
+								<span class="font-en">For English</span>
+							</div>
+							<div class="flex space-x-2">
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://www.youtube.com/c/AcharyaPrashant" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="21" height="15"
+											viewBox="0 0 21 15" class="fill-current">
+											<path
+												d="M10.54-.001h.047l.365.002c.696.004 2.1.02 3.548.072l.512.02c1.535.066 3.032.177 3.705.365.899.247 1.608.97 1.85 1.888.407 1.514.432 4.512.433 5.078v.255c-.007.706-.056 3.531-.432 4.992a2.658 2.658 0 0 1-1.851 1.888c-1.42.381-6.516.433-7.88.44l-.183.001h-.491c-1.36-.008-6.446-.062-7.88-.459a2.659 2.659 0 0 1-1.851-1.888C.069 11.262.01 8.579 0 7.75v-.5c.01-.825.068-3.498.43-4.904C.675 1.43 1.402.687 2.283.44c.71-.19 2.34-.299 3.961-.36l.51-.018C8.11.018 9.393.005 10.048 0l.364-.002h.049ZM8.467 4.844a.448.448 0 0 0-.062.227v4.857a.448.448 0 0 0 .676.387l4.133-2.429a.448.448 0 0 0 0-.773L9.082 4.684a.448.448 0 0 0-.614.16Z">
+											</path>
+										</svg></a></div>
+
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://twitter.com/Prashant_Advait" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="20" height="15"
+											viewBox="0 0 20 15" class="fill-current">
+											<path fill-rule="evenodd"
+												d="M2.671 9.124a4.06 4.06 0 0 0 1.873-.118c-1.829-.274-3.227-1.774-3.227-3.583V5.34a3.974 3.974 0 0 0 1.83.47c-1.097-.637-1.83-1.785-1.83-3.094 0-.68.197-1.316.541-1.86C3.805 3.06 6.662 4.522 9.882 4.72a3.549 3.549 0 0 1-.09-.796C9.792 1.867 11.552.2 13.723.2c1.135 0 2.157.455 2.874 1.183a6.399 6.399 0 0 0 2.44-.898 3.55 3.55 0 0 1-1.672 2.033 6.898 6.898 0 0 0 2.202-.572 6.335 6.335 0 0 1-1.913 1.896v.082l-.001.424c0 5.81-4.972 10.519-11.105 10.519A11.5 11.5 0 0 1 .5 13.17c.31.034.624.051.943.051a8.35 8.35 0 0 0 4.912-1.573c-1.744 0-3.191-1.06-3.684-2.525Z">
+											</path>
+										</svg></a></div>
+
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://www.facebook.com/AdvaitAcharyaPrashant" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15"
+											class="fill-current">
+											<path
+												d="M2.365 14.939V7.828H0V5.269h2.365V3.382C2.365 1.193 3.797 0 5.888 0 6.889 0 7.75.07 8 .1v2.29H6.55c-1.137 0-1.356.505-1.356 1.246v1.633h2.712l-.353 2.559h-2.36V15">
+											</path>
+										</svg></a></div>
+
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://www.instagram.com/acharya_prashant_paf/" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+											viewBox="0 0 15 15" class="fill-current">
+											<path fill-rule="evenodd"
+												d="M7.993 0h.219l.56.002c.936.004 1.23.016 1.82.043.8.036 1.344.163 1.821.348.5.189.954.484 1.329.866.382.374.677.828.865 1.328.185.477.312 1.023.349 1.821.031.696.042.98.044 2.381v1.423a54.45 54.45 0 0 1-.021 1.825l-.007.176-.016.38c-.037.798-.163 1.343-.349 1.82a3.835 3.835 0 0 1-2.193 2.194c-.478.186-1.023.312-1.821.349l-.38.016-.265.01c-.386.012-.825.017-1.736.018H6.789a58.968 58.968 0 0 1-1.736-.018l-.265-.01-.38-.016c-.798-.037-1.344-.163-1.82-.349a3.675 3.675 0 0 1-1.33-.865 3.676 3.676 0 0 1-.864-1.328c-.186-.478-.312-1.023-.349-1.821a35.056 35.056 0 0 1-.043-1.82L0 8.211V6.789l.002-.56c.004-.936.016-1.23.043-1.821.036-.798.163-1.344.348-1.82.189-.501.484-.955.866-1.33A3.676 3.676 0 0 1 2.587.395C3.064.208 3.61.08 4.407.044 5 .019 5.294.007 6.23.003L6.789 0h.219ZM7.5 1.351h-.25l-.646.001a38.38 38.38 0 0 0-2.134.043c-.73.033-1.128.155-1.392.258-.326.12-.62.312-.863.561a2.32 2.32 0 0 0-.56.863c-.104.264-.226.661-.26 1.393-.029.653-.04.928-.042 2.134v1.793a38.33 38.33 0 0 0 .043 2.134c.033.732.155 1.129.258 1.393.12.326.312.62.561.863.242.249.537.44.863.56.264.103.661.226 1.392.259l.461.02.173.006c.32.01.674.014 1.318.016l.38.001H8.58a55.05 55.05 0 0 0 1.318-.017l.172-.006.461-.02c.732-.033 1.129-.156 1.393-.258a2.484 2.484 0 0 0 1.423-1.424c.103-.264.225-.661.259-1.393.03-.653.04-.928.043-2.134V6.603a51.957 51.957 0 0 0-.018-1.5l-.006-.172c-.005-.144-.012-.29-.02-.461-.033-.732-.155-1.129-.258-1.393a2.322 2.322 0 0 0-.56-.863 2.326 2.326 0 0 0-.863-.56c-.264-.103-.661-.226-1.393-.259-.653-.03-.929-.04-2.134-.043H7.5Zm0 2.298a3.852 3.852 0 1 1 0 7.703 3.852 3.852 0 0 1 0-7.703ZM7.5 5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm4.004-2.404a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8Z">
+											</path>
+										</svg></a></div>
+
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://en.wikipedia.org/wiki/Acharya_Prashant" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="20" height="15"
+											viewBox="0 0 20 15" class="fill-current">
+											<path
+												d="M20 .517a.221.221 0 0 1-.221.222h-.618a.554.554 0 0 0-.513.347L13.008 15l-2.84-6.411L7.13 15 1.314 1.08a.554.554 0 0 0-.51-.34H.22C.099.74 0 .64 0 .516V0h5.025L5.01.523a.221.221 0 0 1-.22.217h-.841a.446.446 0 0 0-.412.61l4.082 10.387 2.065-4.5-2.61-6.158A.554.554 0 0 0 6.565.74h-.406c-.122 0-.22-.1-.22-.222V0h3.773v.517a.221.221 0 0 1-.221.222.446.446 0 0 0-.408.622l1.542 3.612L12.2 1.364a.446.446 0 0 0-.406-.625h-.59a.222.222 0 0 1-.221-.222V0h3.952v.517a.221.221 0 0 1-.22.222h-.658a.554.554 0 0 0-.502.321l-2.433 5.232 2.271 5.367 3.974-10.315a.446.446 0 0 0-.414-.605h-.982a.222.222 0 0 1-.221-.222V0H20v.517Z">
+											</path>
+										</svg></a></div>
+							</div>
+						</div>
+						<div class="flex flex-col">
+							<div class="mb-[10px] text-slate-300">
+
+								<span class="font-en">For Hindi</span>
+							</div>
+							<div class="flex space-x-2">
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://www.youtube.com/c/ShriPrashant" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="21" height="15"
+											viewBox="0 0 21 15" class="fill-current">
+											<path
+												d="M10.54-.001h.047l.365.002c.696.004 2.1.02 3.548.072l.512.02c1.535.066 3.032.177 3.705.365.899.247 1.608.97 1.85 1.888.407 1.514.432 4.512.433 5.078v.255c-.007.706-.056 3.531-.432 4.992a2.658 2.658 0 0 1-1.851 1.888c-1.42.381-6.516.433-7.88.44l-.183.001h-.491c-1.36-.008-6.446-.062-7.88-.459a2.659 2.659 0 0 1-1.851-1.888C.069 11.262.01 8.579 0 7.75v-.5c.01-.825.068-3.498.43-4.904C.675 1.43 1.402.687 2.283.44c.71-.19 2.34-.299 3.961-.36l.51-.018C8.11.018 9.393.005 10.048 0l.364-.002h.049ZM8.467 4.844a.448.448 0 0 0-.062.227v4.857a.448.448 0 0 0 .676.387l4.133-2.429a.448.448 0 0 0 0-.773L9.082 4.684a.448.448 0 0 0-.614.16Z">
+											</path>
+										</svg></a></div>
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://twitter.com/Advait_Prashant" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="20" height="15"
+											viewBox="0 0 20 15" class="fill-current">
+											<path fill-rule="evenodd"
+												d="M2.671 9.124a4.06 4.06 0 0 0 1.873-.118c-1.829-.274-3.227-1.774-3.227-3.583V5.34a3.974 3.974 0 0 0 1.83.47c-1.097-.637-1.83-1.785-1.83-3.094 0-.68.197-1.316.541-1.86C3.805 3.06 6.662 4.522 9.882 4.72a3.549 3.549 0 0 1-.09-.796C9.792 1.867 11.552.2 13.723.2c1.135 0 2.157.455 2.874 1.183a6.399 6.399 0 0 0 2.44-.898 3.55 3.55 0 0 1-1.672 2.033 6.898 6.898 0 0 0 2.202-.572 6.335 6.335 0 0 1-1.913 1.896v.082l-.001.424c0 5.81-4.972 10.519-11.105 10.519A11.5 11.5 0 0 1 .5 13.17c.31.034.624.051.943.051a8.35 8.35 0 0 0 4.912-1.573c-1.744 0-3.191-1.06-3.684-2.525Z">
+											</path>
+										</svg></a></div>
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://www.facebook.com/Acharya.Prashant.Advait" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15"
+											class="fill-current">
+											<path
+												d="M2.365 14.939V7.828H0V5.269h2.365V3.382C2.365 1.193 3.797 0 5.888 0 6.889 0 7.75.07 8 .1v2.29H6.55c-1.137 0-1.356.505-1.356 1.246v1.633h2.712l-.353 2.559h-2.36V15">
+											</path>
+										</svg></a></div>
+								<div class="text-slate-300 hover:text-brand-700"><a
+										href="https://www.instagram.com/acharya_prashant_ap/" target="_blank"><svg
+											xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+											viewBox="0 0 15 15" class="fill-current">
+											<path fill-rule="evenodd"
+												d="M7.993 0h.219l.56.002c.936.004 1.23.016 1.82.043.8.036 1.344.163 1.821.348.5.189.954.484 1.329.866.382.374.677.828.865 1.328.185.477.312 1.023.349 1.821.031.696.042.98.044 2.381v1.423a54.45 54.45 0 0 1-.021 1.825l-.007.176-.016.38c-.037.798-.163 1.343-.349 1.82a3.835 3.835 0 0 1-2.193 2.194c-.478.186-1.023.312-1.821.349l-.38.016-.265.01c-.386.012-.825.017-1.736.018H6.789a58.968 58.968 0 0 1-1.736-.018l-.265-.01-.38-.016c-.798-.037-1.344-.163-1.82-.349a3.675 3.675 0 0 1-1.33-.865 3.676 3.676 0 0 1-.864-1.328c-.186-.478-.312-1.023-.349-1.821a35.056 35.056 0 0 1-.043-1.82L0 8.211V6.789l.002-.56c.004-.936.016-1.23.043-1.821.036-.798.163-1.344.348-1.82.189-.501.484-.955.866-1.33A3.676 3.676 0 0 1 2.587.395C3.064.208 3.61.08 4.407.044 5 .019 5.294.007 6.23.003L6.789 0h.219ZM7.5 1.351h-.25l-.646.001a38.38 38.38 0 0 0-2.134.043c-.73.033-1.128.155-1.392.258-.326.12-.62.312-.863.561a2.32 2.32 0 0 0-.56.863c-.104.264-.226.661-.26 1.393-.029.653-.04.928-.042 2.134v1.793a38.33 38.33 0 0 0 .043 2.134c.033.732.155 1.129.258 1.393.12.326.312.62.561.863.242.249.537.44.863.56.264.103.661.226 1.392.259l.461.02.173.006c.32.01.674.014 1.318.016l.38.001H8.58a55.05 55.05 0 0 0 1.318-.017l.172-.006.461-.02c.732-.033 1.129-.156 1.393-.258a2.484 2.484 0 0 0 1.423-1.424c.103-.264.225-.661.259-1.393.03-.653.04-.928.043-2.134V6.603a51.957 51.957 0 0 0-.018-1.5l-.006-.172c-.005-.144-.012-.29-.02-.461-.033-.732-.155-1.129-.258-1.393a2.322 2.322 0 0 0-.56-.863 2.326 2.326 0 0 0-.863-.56c-.264-.103-.661-.226-1.393-.259-.653-.03-.929-.04-2.134-.043H7.5Zm0 2.298a3.852 3.852 0 1 1 0 7.703 3.852 3.852 0 0 1 0-7.703ZM7.5 5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm4.004-2.404a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8Z">
+											</path>
+										</svg></a></div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="mb-[13px] pt-2 font-semibold text-slate-100 tab:hidden">
+
+							<span class="font-en">DOWNLOAD ACHARYA PRASHANT APP</span>
+						</div>
+						<div class="mb-[13px] hidden font-semibold text-slate-100 tab:block">
+
+							<span class="font-en">DOWNLOAD APP</span>
+						</div>
+						<div class="mb-5 hidden items-center tab:flex"><img class="mr-2 h-6 w-6"
+								src="images/ic_aplogo.png" alt="Acharya Prashant">
+							<div class="text-slate-100">
+
+								<span class="font-en">Acharya Prashant</span>
+							</div>
+						</div>
+						<div class="flex tab:flex-col">
+							<div class="mr-4 h-8 w-28 tab:mr-0 tab:mb-5 tab:w-[114px]"><a target="_blank"
+									href="https://play.google.com/store/apps/details?id=org.acharyaprashant.apbooks"><img
+										src="images/ic_googleplay.png" alt="Get it on Google Play"
+										class="rounded-md border-[1.4px] border-slate-300"></a></div>
+							<div class="h-8 w-28 tab:w-[114px]"><a target="_blank"
+									href="https://apps.apple.com/in/app/acharya-prashant/id1603611866"><img
+										src="images/ic_appstore.png" alt="Download on the App Store"
+										class="rounded-md border-[1.4px] border-slate-300"></a></div>
+						</div>
+					</div>
+
+					<div class="space-y-3 pt-2 tab:pt-0">
+						<div class="mb-[13px] font-semibold text-slate-100 tab:pb-0">
+
+							<span class="font-en">CONTACT US</span>
+						</div>
+						<div class="mb-[10px] flex items-center">
+							<div class="pr-2 text-slate-300"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+									height="16" viewBox="0 0 20 16" class="fill-current">
+									<g fill="none" fill-rule="evenodd" stroke="#CBD5E1" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="1.5">
+										<path d="m1 4 7.89 5.26a2 2 0 0 0 2.22 0L19 4"></path>
+										<path
+											d="M3 15h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2Z">
+										</path>
+									</g>
+								</svg></div>
+							<a href="mailto:support@advait.org.in">
+								<div class="text-slate-300 hover:text-brand-700">
+
+									<span class="font-en">support@advait.org.in</span>
+								</div>
+							</a>
+						</div>
+						<div class="mb-[13px] flex items-center">
+							<div class="pr-2 text-slate-300"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+									height="19" viewBox="0 0 18 19" class="fill-current">
+									<g fill="none">
+										<path stroke="#CBD5E1" stroke-width="1.714"
+											d="M8.609 1.51C4.349 1.711.987 5.25 1 9.506a7.932 7.932 0 0 0 .87 3.6L1.105 17.5l4.334-.87a7.977 7.977 0 0 0 3.438.833c4.354.066 7.984-3.383 8.12-7.726.145-4.655-3.705-8.45-8.387-8.228Z">
+										</path>
+										<path fill="#CBD5E1"
+											d="m12.883 11.213-1.55-.444a.578.578 0 0 0-.572.15l-.378.385a.565.565 0 0 1-.614.13C9.036 11.138 7.494 9.77 7.1 9.085a.562.562 0 0 1 .045-.624l.33-.427a.575.575 0 0 0 .072-.585l-.652-1.471a.579.579 0 0 0-.903-.207c-.432.365-.945.92-1.008 1.534-.11 1.084.356 2.45 2.117 4.089 2.034 1.894 3.663 2.144 4.724 1.888.601-.145 1.082-.728 1.385-1.205a.576.576 0 0 0-.327-.864Z">
+										</path>
+									</g>
+								</svg></div>
+							<a href="https://wa.me/+919643750710" target="_blank">
+								<div class="text-slate-300 hover:text-brand-700">
+
+									<span class="font-en">+91 9650585100</span>
+								</div>
+							</a>
+						</div>
+						<div class="mb-5 flex items-center">
+							<div class="pr-2 text-slate-300"><svg xmlns="http://www.w3.org/2000/svg" width="17"
+									height="16" viewBox="0 0 17 16" class="fill-current">
+									<path fill="#CBD5E1"
+										d="m15.697 11.323-2.976-.862a1.103 1.103 0 0 0-1.098.292l-.727.747a1.078 1.078 0 0 1-1.179.251c-1.408-.574-4.369-3.228-5.125-4.556a1.1 1.1 0 0 1 .086-1.21l.635-.83c.249-.324.301-.76.137-1.135L4.198 1.166a1.105 1.105 0 0 0-1.733-.4C1.635 1.474.649 2.55.529 3.742c-.211 2.101.683 4.75 4.064 7.932 3.907 3.675 7.035 4.16 9.072 3.663 1.155-.282 2.078-1.413 2.661-2.338a1.122 1.122 0 0 0-.63-1.676Z">
+									</path>
+								</svg></div>
+							<a href="tel:+919650585100" class="flex">
+								<div class="text-slate-300 hover:text-brand-700">
+
+									<span class="font-en">+91 9650585100</span>
+								</div>
+							</a>
+						</div>
+						<div
+							class="flex w-1/2 cursor-pointer items-center justify-center rounded border border-white py-[5px] text-sm text-slate-100 hover:border-brand-700 hover:text-brand-700 tab:w-10/12">
+
+							<span class="font-en">Fill Form to Connect</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="mx-auto mt-6 mb-6 h-[0.5px] w-full bg-slate-400 tab:mt-[62px] tab:w-2/3"></div>
+
+				<div class="flex-col text-xs tab:mx-auto tab:flex tab:flex-row tab:justify-center tab:text-sm">
+					<div class="text-slate-300 tab:pr-20">
+
+						<span class="font-en">Copyright © 2022 PrashantAdvait Foundation</span>
+					</div>
+					<div class="flex space-x-2 pt-2 tab:pt-0"><a
+							href="https://acharyaprashant.org/en/terms-and-conditions"
+							class="cursor-pointer text-slate-300 hover:text-brand-700">
+
+							<span class="font-en">Terms &amp; Conditions</span></a>
+						<div class="text-slate-300">|</div>
+						<a href="https://acharyaprashant.org/en/privacy-policy"
+							class="cursor-pointer text-slate-300 hover:text-brand-700">
+
+							<span class="font-en">Privacy Policy</span></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<script src="script.js"></script>
+		<!-- <script src="script2.js"></script> -->
+
+		<script type="application/json" sveltekit:data-type="data"
+			sveltekit:data-url="https://acharyaprashant.org/api/v2/legacy/courses/tags">{"status":200,"statusText":"OK","headers":{"connection":"keep-alive","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Sat, 05 Nov 2022 04:23:45 GMT","server":"nginx","transfer-encoding":"chunked","vary":"Origin","x-backend-server":"c73c9d95e330"},"body":"[[{\"name\":{\"hindi\":\"वेदांत - उपनिषद\",\"english\":\"Vedant - Upanishads\"},\"tagId\":1,\"parent\":0,\"level\":0,\"hasChildren\":true},{\"name\":{\"hindi\":\"वेदांत - श्रीमद्भगवद्गीता\",\"english\":\"Vedant - Bhagavad Gita\"},\"tagId\":2,\"parent\":0,\"level\":0,\"hasChildren\":false},{\"name\":{\"hindi\":\"अन्य ग्रन्थ\",\"english\":\"Other Scriptures\"},\"tagId\":3,\"parent\":0,\"level\":0,\"hasChildren\":true},{\"name\":{\"hindi\":\"संत और दार्शनिक\",\"english\":\"Saints and Masters\"},\"tagId\":4,\"parent\":0,\"level\":0,\"hasChildren\":true},{\"name\":{\"hindi\":\"विविध धाराएँ\",\"english\":\"Other streams\"},\"tagId\":5,\"parent\":0,\"level\":0,\"hasChildren\":true},{\"name\":{\"hindi\":\"जीवन सम्बंधित प्रश्न\",\"english\":\"Life Questions\"},\"tagId\":6,\"parent\":0,\"level\":0,\"hasChildren\":true}],[{\"name\":{\"hindi\":\"ईशावास्य उपनिषद्\",\"english\":\"Ishavasya Upanishad\"},\"tagId\":7,\"parent\":1,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"श्वेताश्वतर उपनिषद्\",\"english\":\"Shwetashvtara Upanishad\"},\"tagId\":11,\"parent\":1,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"कठ उपनिषद्\",\"english\":\"Kathopnishad\"},\"tagId\":12,\"parent\":1,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"निरालम्ब उपनिषद्\",\"english\":\"Niralamba Upanishad\"},\"tagId\":13,\"parent\":1,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"सर्वसार उपनिषद्\",\"english\":\"Sarvasara Upanishad\"},\"tagId\":14,\"parent\":1,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"परमहंस गीता\",\"english\":\"Paramahansa Gita\"},\"tagId\":15,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"ऋभु गीता\",\"english\":\"Ribhu Gita\"},\"tagId\":16,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"आजगर गीता\",\"english\":\"Ajgar Gita\"},\"tagId\":17,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"अष्टावक्र गीता\",\"english\":\"Ashtavakra Gita\"},\"tagId\":18,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"उत्तर गीता\",\"english\":\"Uttara Gita\"},\"tagId\":19,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"जीवन्मुक्त गीता\",\"english\":\"Jivanmukta Gita\"},\"tagId\":20,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"पुत्र गीता\",\"english\":\"Putra Gita\"},\"tagId\":21,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"अवधूत गीता\",\"english\":\"Avadhuta Gita\"},\"tagId\":22,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"पिंगला  गीता\",\"english\":\"Pingla Gita\"},\"tagId\":23,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"योग वासिष्ठ सार\",\"english\":\"Yog Vashisth\"},\"tagId\":24,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"श्रीरामचरितमानस\",\"english\":\"Shri Ramcharitra Manas\"},\"tagId\":25,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"विवेकचूड़ामणि\",\"english\":\"Vivekachudamani\"},\"tagId\":26,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"तत्त्व बोध\",\"english\":\"Tatva Bodh\"},\"tagId\":27,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"आत्म बोध\",\"english\":\"Atma Bodh\"},\"tagId\":28,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"वैराग्य षट्कम\",\"english\":\"Vairagya Shatkam\"},\"tagId\":29,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"श्रृंगार षट्कम\",\"english\":\"Shringar Shatkam\"},\"tagId\":30,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"महाभारत\",\"english\":\"Mahabharat\"},\"tagId\":31,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"पतंजलि योग सूत्र\",\"english\":\"Patanjali Yoga Sutra\"},\"tagId\":32,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"दुर्गासप्तशती\",\"english\":\"Durgasaptashati\"},\"tagId\":33,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"अपरोक्षानुभूति\",\"english\":\"Aparokshanubhuti\"},\"tagId\":34,\"parent\":3,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"मीराबाई\",\"english\":\"Meera Bai\"},\"tagId\":35,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत कबीर\",\"english\":\"Saint Kabir\"},\"tagId\":36,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत रैदास\",\"english\":\"Saint Raidas\"},\"tagId\":37,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत दरियादास\",\"english\":\"Saint Dariyadas\"},\"tagId\":38,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत सहजोबाई\",\"english\":\"Saint Sahjobai\"},\"tagId\":39,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत लल्लेश्वरी\",\"english\":\"Saint Lalleshwari\"},\"tagId\":40,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत रहीम\",\"english\":\"Saint Rahim\"},\"tagId\":41,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"आदिशंकराचार्य\",\"english\":\"Adi Shankaracharya\"},\"tagId\":42,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत सूरदास\",\"english\":\"Saint Surdas\"},\"tagId\":43,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत तुलसीदास\",\"english\":\"Tulsidas\"},\"tagId\":44,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत नामदेव\",\"english\":\"Saint Namdev\"},\"tagId\":45,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"संत दादू दयाल\",\"english\":\"Saint Dadu Dayal\"},\"tagId\":46,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"गुरु नानक\",\"english\":\"Guru Nanak\"},\"tagId\":47,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"बाबा बुल्ले शाह\",\"english\":\"Baba Bulleh Shah\"},\"tagId\":48,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"महर्षि पतंजलि\",\"english\":\"Shree Patanjali\"},\"tagId\":49,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"स्वामी विवेकानंद\",\"english\":\"Swami Vivekananda\"},\"tagId\":50,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"श्री कृष्ण\",\"english\":\"Shri Krishna\"},\"tagId\":51,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"श्री राम\",\"english\":\"Shri Ram\"},\"tagId\":52,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"बुद्ध\",\"english\":\"Buddha\"},\"tagId\":53,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"रामकृष्ण  परमहंस\",\"english\":\"Ramakrishna Paramahamsa\"},\"tagId\":54,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"भर्तृहरि\",\"english\":\"Bhartrihari\"},\"tagId\":55,\"parent\":4,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"ज़ेन\",\"english\":\"Zen\"},\"tagId\":56,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"बौद्ध धर्म\",\"english\":\"Buddhism\"},\"tagId\":57,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"सिख धर्म\",\"english\":\"Sikhism\"},\"tagId\":58,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"पंचतंत्र\",\"english\":\"Panchatantra\"},\"tagId\":59,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"जीसस\",\"english\":\"Jesus\"},\"tagId\":60,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"ईसाई धर्म\",\"english\":\"Christianity\"},\"tagId\":61,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"सूफी\",\"english\":\"Sufism\"},\"tagId\":62,\"parent\":5,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"सम्बन्ध\",\"english\":\"Relationships\"},\"tagId\":63,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"रोज़गार और नौकरी\",\"english\":\"Career and Job\"},\"tagId\":64,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"अकेलापन और विचार\",\"english\":\"Overthinking and loneliness\"},\"tagId\":65,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"अवसाद और बेचैनी\",\"english\":\"Depression and Anxiety\"},\"tagId\":66,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"महिला मुक्ति\",\"english\":\"Women Liberation\"},\"tagId\":67,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"देशभक्ति\",\"english\":\"Patriotism\"},\"tagId\":68,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"पढ़ाई और शिक्षा\",\"english\":\"Study and Education\"},\"tagId\":69,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"भारत\",\"english\":\"India\"},\"tagId\":70,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"ध्यान\",\"english\":\"Meditation\"},\"tagId\":71,\"parent\":6,\"level\":1,\"hasChildren\":false},{\"name\":{\"hindi\":\"पर्यावरण\",\"english\":\"Environment\"},\"tagId\":72,\"parent\":6,\"level\":1,\"hasChildren\":false}]]\n"}</script>
+		<script type="application/json" sveltekit:data-type="data"
+			sveltekit:data-url="https://acharyaprashant.org/api/v2/legacy/courses/series/optuser/course-series-eeb9d3">{"status":200,"statusText":"OK","headers":{"connection":"keep-alive","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Sat, 05 Nov 2022 04:23:45 GMT","server":"nginx","transfer-encoding":"chunked","vary":"Origin","x-backend-server":"875ce2a4bf8a"},"body":"{\"details\":{\"id\":\"course-series-eeb9d3\",\"contentType\":\"CourseSeries\",\"title\":\"संतवाणी\",\"subtitle\":\"संतों की सीख पर आधारित श्रृंखला\",\"description\":\"जब-जब समाज में धर्म के प्रति अनादर बढ़ा है और आम-आदमी की चेतना को पाखंड ने घेरा है, तब-तब संतों ने अपने वचनों से हमारे मन को शीतलता प्रदान की है और सामाजिक चेतना को शुद्ध किया है।\\n\\nइस श्रृंखला में आचार्य जी ने संत कबीरदास, तुलसीदास, पलटूदास, दादू दयाल, सहजोबाई, मलूकदास, दरियादास, रविदास आदि संतों की वाणी पर चर्चा की है। जानिए उनके वचनों की जीवन में सार्थकता को आचार्य प्रशांत के साथ इस आसान वीडियो कोर्स में।\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":8},\"courses\":[{\"id\":\"swo1\",\"contentType\":\"Course\",\"title\":\"संत समागम परम सुख\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":1}},\"courseHours\":2.5},{\"id\":\"swo2\",\"contentType\":\"Course\",\"title\":\"गुरु न तजूं, हरि को तजि डारूँ\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":2}},\"courseHours\":1.7},{\"id\":\"swo3\",\"contentType\":\"Course\",\"title\":\"माया महा ठगनी हम जानी\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":3}},\"courseHours\":2.38},{\"id\":\"swo4\",\"contentType\":\"Course\",\"title\":\"संतों के प्रकाश में दैनिक जीवन\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":4}},\"courseHours\":1.9},{\"id\":\"swo5\",\"contentType\":\"Course\",\"title\":\"साधो! सहज समाधि भली\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":5}},\"courseHours\":3.11},{\"id\":\"swt1\",\"contentType\":\"Course\",\"title\":\"संत लल्लेश्वरी की ज़रूरी सीख\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":6}},\"courseHours\":1.93},{\"id\":\"swt2\",\"contentType\":\"Course\",\"title\":\"सोना, सज्जन, साधूजन, टूट जुड़े सौ बार\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":7}},\"courseHours\":2.9},{\"id\":\"swt3\",\"contentType\":\"Course\",\"title\":\"संतवाणी: आंतरिक दर्द की दवा\",\"subtitle\":\"संतों के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"amount\":250,\"originalAmount\":500,\"thumbnail\":{\"id\":\"img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-4337ee73-d8a3-4c8b-951b-d09a5a6468d3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"series\":{\"id\":\"course-series-eeb9d3\",\"order\":{\"seq\":8}},\"courseHours\":0.91}],\"relatedTags\":[{\"name\":{\"hindi\":\"मीराबाई\",\"english\":\"Meera Bai\"},\"tagId\":35},{\"name\":{\"hindi\":\"संत कबीर\",\"english\":\"Saint Kabir\"},\"tagId\":36},{\"name\":{\"hindi\":\"संत रैदास\",\"english\":\"Saint Raidas\"},\"tagId\":37},{\"name\":{\"hindi\":\"संत दरियादास\",\"english\":\"Saint Dariyadas\"},\"tagId\":38},{\"name\":{\"hindi\":\"संत सहजोबाई\",\"english\":\"Saint Sahjobai\"},\"tagId\":39},{\"name\":{\"hindi\":\"संत लल्लेश्वरी\",\"english\":\"Saint Lalleshwari\"},\"tagId\":40},{\"name\":{\"hindi\":\"संत रहीम\",\"english\":\"Saint Rahim\"},\"tagId\":41},{\"name\":{\"hindi\":\"संत सूरदास\",\"english\":\"Saint Surdas\"},\"tagId\":43},{\"name\":{\"hindi\":\"संत तुलसीदास\",\"english\":\"Tulsidas\"},\"tagId\":44},{\"name\":{\"hindi\":\"संत नामदेव\",\"english\":\"Saint Namdev\"},\"tagId\":45},{\"name\":{\"hindi\":\"संत दादू दयाल\",\"english\":\"Saint Dadu Dayal\"},\"tagId\":46},{\"name\":{\"hindi\":\"गुरु नानक\",\"english\":\"Guru Nanak\"},\"tagId\":47},{\"name\":{\"hindi\":\"बाबा बुल्ले शाह\",\"english\":\"Baba Bulleh Shah\"},\"tagId\":48},{\"name\":{\"hindi\":\"श्री कृष्ण\",\"english\":\"Shri Krishna\"},\"tagId\":51},{\"name\":{\"hindi\":\"स्वामी विवेकानंद\",\"english\":\"Swami Vivekananda\"},\"tagId\":50},{\"name\":{\"hindi\":\"आदिशंकराचार्य\",\"english\":\"Adi Shankaracharya\"},\"tagId\":42},{\"name\":{\"hindi\":\"श्री राम\",\"english\":\"Shri Ram\"},\"tagId\":52},{\"name\":{\"hindi\":\"रामकृष्ण  परमहंस\",\"english\":\"Ramakrishna Paramahamsa\"},\"tagId\":54},{\"name\":{\"hindi\":\"महर्षि पतंजलि\",\"english\":\"Shree Patanjali\"},\"tagId\":49},{\"name\":{\"hindi\":\"बुद्ध\",\"english\":\"Buddha\"},\"tagId\":53}],\"relatedContent\":[{\"id\":\"cs-9a687f\",\"contentType\":\"CourseSeries\",\"title\":\"Kabir Saheb\",\"subtitle\":\"Based on Selected Verses of Kabir Saheb\",\"language\":\"english\",\"thumbnail\":{\"id\":\"img-3c2f4551-5465-43be-a34e-7d598beab8c3\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-3c2f4551-5465-43be-a34e-7d598beab8c3\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":4,\"relatedType\":0},{\"id\":\"cs-578f43\",\"contentType\":\"CourseSeries\",\"title\":\"Nitnem Sahib\",\"subtitle\":\"Based  on Verses of Nitnem Sahib\",\"language\":\"english\",\"thumbnail\":{\"id\":\"img-e8b1ac33-5cc8-40fd-b873-e89e8ec2a712\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-e8b1ac33-5cc8-40fd-b873-e89e8ec2a712\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":6,\"relatedType\":0},{\"id\":\"cs-c70476\",\"contentType\":\"CourseSeries\",\"title\":\"नितनेम साहिब\",\"subtitle\":\"नितनेम साहिब की मुख्य वाणी पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-ee768c0f-9284-4557-bcb8-bc91ca94c394\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-ee768c0f-9284-4557-bcb8-bc91ca94c394\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":4,\"relatedType\":0},{\"id\":\"cs-999400\",\"contentType\":\"CourseSeries\",\"title\":\"बाबा बुल्लेशाह\",\"subtitle\":\"बुल्लेशाह की मुख्य काफी पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-bab376ea-0e21-4cc6-9362-e28bb9ecd3a5\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-bab376ea-0e21-4cc6-9362-e28bb9ecd3a5\",\"key\":\"image.jpg\",\"qualities\":[10,20,30],\"aspectRatio\":1.779},\"coursesCount\":3,\"relatedType\":0},{\"id\":\"course-series-ad3c19\",\"contentType\":\"CourseSeries\",\"title\":\"कबीर  साहब\",\"subtitle\":\"कबीर साहब की सीख पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-5b55a674-0ba0-40e9-9640-8423cffd03d8\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-5b55a674-0ba0-40e9-9640-8423cffd03d8\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":5,\"relatedType\":0},{\"id\":\"course-series-d27351\",\"contentType\":\"CourseSeries\",\"title\":\"श्रीरामचरितमानस\",\"subtitle\":\"रामचरितमानस श्रृंखला | जानें श्रीराम के मर्म को\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-2b4b3079-af40-49ae-b34c-0796fcd5c7d0\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-2b4b3079-af40-49ae-b34c-0796fcd5c7d0\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":5,\"relatedType\":0},{\"id\":\"cs-58e4a4\",\"contentType\":\"CourseSeries\",\"title\":\"काम से राम तक\",\"subtitle\":\"मुनि भर्तृहरि कृत श्रृंगार शतकम् और वैराग्य शतकम् के मुख्य श्लोकों पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-7c69638b-24d7-4b4a-a353-e6847791be53\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-7c69638b-24d7-4b4a-a353-e6847791be53\",\"key\":\"image.jpg\",\"qualities\":[10,20,30],\"aspectRatio\":1.779},\"coursesCount\":6,\"relatedType\":1},{\"id\":\"course-series-54e291\",\"contentType\":\"CourseSeries\",\"title\":\"निर्गुण, निरंजन राम\",\"subtitle\":\"श्री राम पर कबीर साहब के मुख्य दोहे पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-f2139089-a281-4d57-8615-dcf521e2f7f6\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-f2139089-a281-4d57-8615-dcf521e2f7f6\",\"key\":\"image.jpg\",\"qualities\":[10,20,30,40],\"aspectRatio\":1.779},\"coursesCount\":3,\"relatedType\":1},{\"id\":\"course-series-839114\",\"contentType\":\"CourseSeries\",\"title\":\"Vivekachudamani\",\"subtitle\":\"Crest Jewel of Discretion\",\"language\":\"english\",\"thumbnail\":{\"id\":\"img-05b1c2ea-a5bf-4b15-b8bf-00b838505ce0\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-05b1c2ea-a5bf-4b15-b8bf-00b838505ce0\",\"key\":\"image.jpg\",\"qualities\":[10,20,30],\"aspectRatio\":1.779},\"coursesCount\":3,\"relatedType\":1},{\"id\":\"course-series-f0d0af\",\"contentType\":\"CourseSeries\",\"title\":\"आत्मबोध\",\"subtitle\":\"आदि शंकराचार्य कृत आत्मबोध के श्लोकों पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-d1f4c119-4774-4c8a-bb98-998c2ad7a13d\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-d1f4c119-4774-4c8a-bb98-998c2ad7a13d\",\"key\":\"image.jpg\",\"qualities\":[10,20,30],\"aspectRatio\":1.779},\"coursesCount\":3,\"relatedType\":1},{\"id\":\"course-series-3b7d8c\",\"contentType\":\"CourseSeries\",\"title\":\"पतंजलि योगसूत्र\",\"subtitle\":\"पतंजलि योगसूत्र पर आधारित योग श्रृंखला\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-8fcda564-b3f2-4e59-bd23-823e9610467c\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-8fcda564-b3f2-4e59-bd23-823e9610467c\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":3,\"relatedType\":1},{\"id\":\"course-series-3d0a7d\",\"contentType\":\"CourseSeries\",\"title\":\"अपरोक्षानुभूति\",\"subtitle\":\"अपरोक्षानुभूति के श्लोकों पर आधारित श्रृंखला\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-28d5facd-82bc-43cd-a9b5-09d02425af8f\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-28d5facd-82bc-43cd-a9b5-09d02425af8f\",\"key\":\"image.jpg\",\"qualities\":[10,20,30,40],\"aspectRatio\":1.779},\"coursesCount\":6,\"relatedType\":1},{\"id\":\"course-series-b39a53\",\"contentType\":\"CourseSeries\",\"title\":\"योगवासिष्ठ सार\",\"subtitle\":\"राम और उनके गुरु महर्षि वसिष्ठ के संवाद पर आधारित\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-a3e7c596-fe2b-46c1-96cc-0d7dc0f57def\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-a3e7c596-fe2b-46c1-96cc-0d7dc0f57def\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":6,\"relatedType\":1},{\"id\":\"course-series-a64d85\",\"contentType\":\"CourseSeries\",\"title\":\"व्यावहारिक वेदांत\",\"subtitle\":\"श्री रामकृष्ण परमहंस, स्वामी विवेकानंद और व्यावहारिक वेदांत\",\"language\":\"hindi\",\"thumbnail\":{\"id\":\"img-5a2e0fda-9558-45e8-8caf-7025f3db2a74\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-5a2e0fda-9558-45e8-8caf-7025f3db2a74\",\"key\":\"image.jpg\",\"qualities\":[10,20],\"aspectRatio\":1.779},\"coursesCount\":4,\"relatedType\":1},{\"id\":\"dharma-and-decision\",\"contentType\":\"Course\",\"title\":\"Dharma and Decisions\",\"subtitle\":\"Wisdom of Gautam Buddha in the light of Vedanta\",\"language\":\"english\",\"thumbnail\":{\"id\":\"img-44ef295b-44b9-4a03-b888-4194e0de0163\",\"version\":1,\"domain\":\"https://cimg.acharyaprashant.org\",\"basePath\":\"images/img-44ef295b-44b9-4a03-b888-4194e0de0163\",\"key\":\"image.jpg\",\"qualities\":[10,20,30],\"aspectRatio\":1.779},\"amount\":2700,\"courseHours\":5.3,\"relatedType\":1}]}\n"}</script>
+		<script type="application/json" sveltekit:data-type="data"
+			sveltekit:data-url="https://acharyaprashant.org/api/v2/legacy/courses/faqs?language=hindi">{"status":200,"statusText":"OK","headers":{"connection":"keep-alive","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Sat, 05 Nov 2022 04:23:45 GMT","server":"nginx","transfer-encoding":"chunked","vary":"Origin","x-backend-server":"c73c9d95e330"},"body":"[{\"question\":\" कोई भी कोर्स आचार्य प्रशांत के यूट्यूब वीडियो से कैसे अलग है?\",\"answer\":\"\\u003cp\\u003eकोर्स के सभी वीडियो-सत्र सिर्फ़ इस प्लेटफार्म पर उपलब्ध हैं। (कुछ वीडियो के कुछ हिस्से किन्हीं सोशल मीडिया प्लेटफॉर्म पर उपलब्ध हो सकते हैं। हालाँकि, इनकी संरचना, परीक्षण और प्रक्रियाओं के साथ पूरा पाठ्यक्रम इस प्लेटफॉर्म के अलावा कहीं और उपलब्ध नहीं है।)\\u003c/p\\u003e\"},{\"question\":\"क्या ये लाइव कोर्स हैं या इसमें पहले से रिकॉर्डेड वीडियो हैं?\",\"answer\":\"\\u003cp\\u003eयहाँ उपलब्ध सभी कोर्स वीडियो कोर्स हैं, इसमें आचार्य जी के पहले से रिकॉर्डेड वीडियो का संकलन है। यह कोई लाइव कोर्स नहीं है इसलिए आप इस कोर्स से कभी भी जुड़ सकते हैं और अपने हिसाब से इसके वीडियो-सत्र देख सकते हैं।\\u003c/p\\u003e\"},{\"question\":\"कोर्सस के लिए सहयोग राशि क्यों रखी गयी है? यह निःशुल्क क्यों नहीं है?\",\"answer\":\"\\u003cp\\u003eकोर्सेस की न्यूनतम सहयोग राशि संस्था के न्यूनतम आर्थिक ज़रूरतों को ध्यान में रखते हुए रखी गयी है।\\u003c/p\\u003e\"},{\"question\":\"सहयोग राशि से अधिक दान देने से मुझे क्या लाभ होगा?\",\"answer\":\"\\u003cp\\u003eसंस्था जिस जन-जागरण आन्दोलन के साथ आगे बढ़ रही है, वो मूलतः व्यक्तिगत और सामाजिक सुधार के लिए है। इसलिए व्यापक स्तर पर बदलाव लाने के लिए संस्था को अधिक संसाधनों की आवश्यकता है। आपके द्वारा किया जाने वाला योगदान समाजिक उत्थान के रूप में वापिस आप तक ही पहुँचता है। इसलिए अधिक योगदान कर संस्था को बल दें जिससे वह आपकी और सहायता कर सके।\\u003c/p\\u003e\"},{\"question\":\"कोर्स की रजिस्ट्रेशन की प्रकिया के बाद मैं उसे कब तक देख सकता हूँ?\",\"answer\":\"\\u003cp\\u003eकोर्स की एनरोलमेंट की प्रक्रिया पूरी होने के बाद आप उसको आजीवन देख सकते हैं।\\u003c/p\\u003e\"},{\"question\":\"क्या कोर्स के वीडियो को बार-बार देखने की सुविधा उपलब्ध है?\",\"answer\":\"\\u003cp\\u003eहाँ, आप कोर्स का कोई भी वीडियो सत्र कितनी भी बार देख सकते हैं। वीडियो सत्र को बीच में रोकने, पीछे जाने, या आगे बढ़ने की सुविधा भी उपलब्ध है।\\u003c/p\\u003e\"},{\"question\":\"लाइव-चैट में मैं किस प्रकार के प्रश्न पूछ सकता हूँ?\",\"answer\":\"\\u003cp\\u003eलाइव-चैट में आप वीडियो-सत्र से संबंधित कोई भी प्रश्न पूछ सकते हैं। यह सुविधा इसलिए उपलब्ध करवाई गयी है जिससे आप कोर्स से अधिकतम लाभ ले सकें। किसी भी प्रकार की व्यक्तिगत समस्या होने पर संस्था की हेल्पलाइन पर संपर्क करें: +91-9650585100/+91-9643750710\\u003c/p\\u003e\"},{\"question\":\"मुझे कोर्स से बहुत लाभ हुआ, अब मैं संस्था की कैसे सहायता कर सकता हूँ?\",\"answer\":\"\\u003cp\\u003eयह हमारे लिए बहुत प्रसन्नता की बात है कि इस कोर्स से आपकी सहायता हुई और अब आप संस्था की मदद करना चाहते हैं। सबसे पहले हम आपसे निवेदन करेंगे कि आप अपना पूरा अनुभव हमारे साथ support@advait.org.in पर साझा करें। ऐसा करने के बाद आप 'शेयर' बटन का उपयोग कर इस कोर्स के विषय में अपने मित्रों को बता सकते हैं, या संस्था को \\u003ca  href=\\\"https://acharyaprashant.org/donate\\\"\\u003eयहाँ जाकर\\u003c/a\\u003e अनुदान भी कर सकते हैं।\\u003c/p\\u003e\"}]\n"}</script>
+	</div>
+</body>
+
+</html>

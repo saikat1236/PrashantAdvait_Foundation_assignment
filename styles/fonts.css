@@ -1,0 +1,271 @@
+/* ENGLISH FONT */
+/* ------------------------- static ------------------------- */
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 100;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Thin.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Thin.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 100;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-ThinItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-ThinItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-ExtraLight.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-ExtraLight.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-ExtraLightItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-ExtraLightItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Light.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Light.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-LightItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-LightItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Regular.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Regular.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Italic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Italic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Medium.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Medium.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 500;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-MediumItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-MediumItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-SemiBold.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-SemiBold.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-SemiBoldItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-SemiBoldItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Bold.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Bold.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-BoldItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-BoldItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-ExtraBold.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-ExtraBold.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 800;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-ExtraBoldItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-ExtraBoldItalic.woff?v=3.19') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-Black.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-Black.woff?v=3.19') format('woff');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-BlackItalic.woff2?v=3.19') format('woff2'),
+		url('https://acharyaprashant.org/fonts/inter/Inter-BlackItalic.woff?v=3.19') format('woff');
+}
+
+/* ----------------------- variable ----------------------- */
+
+@font-face {
+	font-family: 'Inter var';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-roman.var.woff2?v=3.19') format('woff2');
+	font-named-instance: 'Regular';
+}
+
+@font-face {
+	font-family: 'Inter var';
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('https://acharyaprashant.org/fonts/inter/Inter-italic.var.woff2?v=3.19') format('woff2');
+	font-named-instance: 'Italic';
+}
+
+/* HINDI FONT */
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-Regular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-Regular.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-ExtraBold.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Eczar;
+	src: url('https://acharyaprashant.org/fonts/eczar/Eczar-ExtraBold.ttf') format('truetype');
+	font-weight: 1000;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Kalam;
+	src: url('https://acharyaprashant.org/fonts/kalam/Kalam-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Kalam;
+	src: url('https://acharyaprashant.org/fonts/kalam/Kalam-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
